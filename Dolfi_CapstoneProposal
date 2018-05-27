@@ -1,0 +1,42 @@
+
+What brings people to parks? Using social media data to identify drivers of high visitation rates in parks
+
+What is the problem you want to solve?
+Why do people visit parks? How do these visitors choose one park over the other? 
+Through this project, I intend to identify what amenities (e.g. basketball courts,
+walking trails), facilities (e.g. restrooms), and/or general park attributes (e.g.
+park size, park accessibility) are leading to higher visitation rates in parks. 
+
+Who is your client and why do they care about this problem? In other words, what 
+will your client DO or DECIDE based on your analysis that they wouldn’t have 
+otherwise?
+For this specific study, I will be collecting social media and park 
+amenity/facility data in New York, NY. However, the target client for this project 
+could be any agency responsible for park acquisition, park design, park creation 
+and/or park maintenance. These agencies could use the conclusions from this study 
+in their future park planning efforts to determine where the new park should go, and
+what to include in the park design.
+
+What data are you going to use for this? How will you acquire this data?
+1. Tweets from Twitter API (for park usage)
+Twython python wrapper for accessing standard twitter search and setting up 
+twitter stream
+2. NYC Parks and Rec park facility database (for available facilities/amenities)
+List of facilities possible to include: https://www.nycgovparks.org/facilities
+Will inquire with NYC Parks and Rec to obtain flat table of data
+3. The Trust for Public Land’s ParkServe® database (for basic park attributes, 
+such as park size and # of people living within a 10-minute walk)
+
+In brief, outline your approach to solving this problem (knowing that this might 
+change later).
+I plan to perform several regression techniques with park usage/visitation rates 
+as the dependent variable, with park amenity availability, park facility 
+availability and general park attribute as the independent variables. The 
+amenities/facilities I use as independent variables will be determined based on a 
+literature review of park visitation determinants.
+
+What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+1. All relevant scripts/codes
+2. Slide deck with introduction, methodology, conclusions and limitations
+3. (Possibly) a brief write-up
+
