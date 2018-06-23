@@ -1,0 +1,21 @@
+Goals for Data Wrangling:
+
+1. Clean parks dataset to ensure there is a joinable ID
+2. Clean parks to remove unwanted fields
+3. Join the following layers to the parks for amenity info:
+	- Count of basketball courts
+	- Count of play areas
+	- Count of spray features
+	- Count of preserves
+	- Count of swimming pools
+	- Count of trails
+4. Join the following to the parks for surrounding populaion info:
+	- Total population living within a 10MW
+	- Age, race/ethnicity and income demographics tagged to each parks
+	
+See Jupyter notebook file to view steps to do the above:
+https://github.com/edolfi/springboard_datascience/blob/master/Capstone/ParkFeatures_DataWrangling.ipynb
+
+
+Future data wrangling steps once twitter data is in hand:
+	- Tag each parks with # of tweets (indicator of park visitation)
