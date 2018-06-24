@@ -16,6 +16,14 @@ Goals for Data Wrangling:
 See Jupyter notebook file to view steps to do the above:
 https://github.com/edolfi/springboard_datascience/blob/master/Capstone/ParkFeatures_DataWrangling.ipynb
 
+Challenges to these steps:
+- index was inconsistent across different datasets
+- the group by step with park amenity counts took multiple iterations (plus stack overflow to figure out)
+- the group by easily cut down unwanted fields, so things stayed pretty clean
+- since I did a LEFT join for all merges except the last, I filled all NaN values with "0" assuming 
+  that any empty cells did not have those amenities
+- I decided on an INNER join for the last merge, so all parks in the study would have 10-minute walk statistics.
+
 
 Future data wrangling steps once twitter data is in hand:
 	- Tag each parks with # of tweets (indicator of park visitation)
