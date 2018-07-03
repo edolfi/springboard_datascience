@@ -1,0 +1,13 @@
+- (NO) selecting parks with probability that are proportional to their size
+- selecting parks with probability that are proportional to the number of 
+  amenities!
+  - probability of the block being chosen was proportional to the size 
+    of the population (probability)
+    
+- stratified sample of parks with amenities and parks without amenities
+- is there a relationship between amenities/no amenities vs. size
+	- create a box plot to show whether there is a relationship
+
+- look at 10MW statistics 
+- should we do stratified for parks that have tweets and that don't have tweets?
+- do we have to have tweets for every parks or is it good to have some with 0 tweets?
